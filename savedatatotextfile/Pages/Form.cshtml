@@ -1,0 +1,28 @@
+﻿@page
+@model savedatatotextfile.Pages.FormModel
+@{
+
+    <form  method="get">
+
+        <h1>Save data to text file</h1>
+        <label for="@Model">Book</label>
+        <input type="text" id="Book" placeholder="Book">
+        <select  class="form-select" aria-label="Default select example">
+            <option selected>Selection for Bilble book</option>
+            <option value="1">New Testaments</option>
+            <option value="2">Old Testaments</option>
+           
+        </select>
+        <label for="@Model">Chapter</label>
+        <input type="text" id="chapter" placeholder="Chapter">
+        <label for="@Model">Verse</label>
+        <input type="text" id="Verse" placeholder="verse">
+
+        <button  type="submit" formmethod="post">Submit</button>
+
+
+
+
+    </form>
+}
+
